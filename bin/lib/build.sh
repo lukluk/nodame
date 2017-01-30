@@ -1,6 +1,6 @@
 #!/bin/bash
 
-BASEDIR=$(dirname $0)/../..
+BASEDIR=process.env.BASEDIR
 ROOTDIR=$BASEDIR/../..
 ROOT_LIST=(
     .gitignore

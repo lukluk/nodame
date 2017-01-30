@@ -1,6 +1,6 @@
 #!/bin/bash
 
-BASEDIR=$(dirname $0)/../..
+BASEDIR=process.env.BASEDIR
 dir=$BASEDIR/../../assets/min
 
 red="\033[0;31m"

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-BASEDIR=$(dirname $0)/../../../..
+BASEDIR=process.env.BASEDIR
 filepath=$1
 culprit=$2
 pre=$((culprit-5))

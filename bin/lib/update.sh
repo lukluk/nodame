@@ -1,6 +1,6 @@
 #!/bin/bash
 
-BASEDIR=$(dirname $0)/../../../..
+BASEDIR=process.env.BASEDIR
 file=${BASEDIR}/configs/.build
 timestamp=$(date +%s)
 os=`uname -a`

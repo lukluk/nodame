@@ -1,6 +1,6 @@
 #!/bin/bash
 set -e
-BASEDIR=$(dirname $0)/../..
+BASEDIR=process.env.BASEDIR
 
 src=$BASEDIR/src
 bin=$BASEDIR/bin

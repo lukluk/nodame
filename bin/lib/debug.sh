@@ -1,6 +1,6 @@
 #!/bin/bash
 
-BASEDIR=$(dirname $0)/../..
+BASEDIR=process.env.BASEDIR
 filename=$1
 filepath=${BASEDIR}/lib/${filename}.js
 culprit=$2

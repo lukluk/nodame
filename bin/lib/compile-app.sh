@@ -1,7 +1,7 @@
 #!/bin/bash
 
 lib=$(dirname $0)
-BASEDIR=$lib/../../../..
+BASEDIR=process.env.BASEDIR
 src=$BASEDIR/src
 dst=$BASEDIR
 tmp=$dst/.tmp
